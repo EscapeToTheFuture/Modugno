@@ -1,4 +1,4 @@
-import speaker_box_img from "@assets/images/generic/bg-button.png";
+import speaker_box_img from "@assets/images/generic/bg-button.webp";
 import PropTypes from "prop-types";
 
 const Speaker = ({ speaker, type }) => {
