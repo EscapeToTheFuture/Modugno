@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import "@assets/style/index.css";
 
-import Bitritto from './Bitritto';
+import Modugno from './Modugno';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Bitritto />
+    <Modugno />
   </StrictMode>,
 )

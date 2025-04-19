@@ -2,7 +2,6 @@ import { HashRouter, Routes, Route } from "react-router";
 import RotatePhone from "./components/RotatePhone";
 import { useEffect, useState } from "react";
 
-import JSONEngine from "./Engine/JSONEngine";
 import GameOver from "./scenes/GameOver";
 import SplashScreen from "./scenes/SplashScreen";
 
@@ -15,7 +14,7 @@ import Scena6 from "./scenes/Scena6";
 import Scena7 from "./scenes/Scena7";
 import Win from "./scenes/Win";
 
-const Bitritto = () => {
+const Modugno = () => {
   const [isPortrait, setIsPortrait] = useState(window.matchMedia("(orientation: portrait)").matches);
 
   useEffect(() => {
@@ -68,7 +67,7 @@ const Bitritto = () => {
       ) : (
         <HashRouter>
           <Routes>
-            <Route path="/" element={<SplashScreen location={'SOLE LUNA BITRITTO'} title={'IL LABORATORIO DEL MAGO PDOR'} />} />
+            <Route path="/" element={<SplashScreen location={'Dante Alighieri Modugno'} title={'ESCAPE ROOM: IL PARCO'} />} />
             <Route path="/scena1" element={<Scena1/>} />
             <Route path="/scena2" element={<Scena2/>} />
             <Route path="/scena3" element={<Scena3/>} />
@@ -76,7 +75,6 @@ const Bitritto = () => {
             <Route path="/scena5" element={<Scena5/>} />
             <Route path="/scena6" element={<Scena6/>} />
             <Route path="/scena7" element={<Scena7/>} />
-            <Route path="/engine" element={<JSONEngine/>} />
             {/* Game over */}
             <Route path="*" element={<GameOver/>} />
             {/* Win */}
@@ -88,4 +86,4 @@ const Bitritto = () => {
   );
 };
 
-export default Bitritto;
+export default Modugno;

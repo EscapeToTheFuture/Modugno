@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/Modugno/dev-sw.js?dev-sw', { scope: '/Modugno/', type: 'classic' })

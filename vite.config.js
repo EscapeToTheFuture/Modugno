@@ -5,15 +5,15 @@ import path from "path";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  base: "/Bitritto/",
+  base: "/Modugno/",
   plugins: [
     react(),
     tailwindcss(),
     VitePWA({
       manifest: {
-        "name": "Il laboratorio del mago Pdor",
-        "short_name": "Mago Pdor",
-        "description": "Questa è un Escape Room realizzata dai ragazzi del centro diurno 'I cento passi' di Bitritto.\nRiuscirai a portare il salvo Enrico?",
+        "name": "Escape Room - Parco",
+        "short_name": "Il parco",
+        "description": "Questa è un Escape Room realizzata dai ragazzi della scuola Dante Alighieri di Modugno",
         "start_url": "/",
         "display": "fullscreen",
         "background_color": "#463B3E",
@@ -25,7 +25,7 @@ export default defineConfig({
         "categories": ["education", "game"],
         "screenshots": [
           {
-            "src": "/Bitritto/screenshot/1-desktop.png",
+            "src": "/Modugno/screenshot/1-desktop.png",
             "sizes": "1920x1080",
             "type": "image/png",
             "label": "Inizio del gioco",
@@ -33,7 +33,7 @@ export default defineConfig({
             "form_factor": "wide"
           },
           {
-            "src": "/Bitritto/screenshot/1-mobile.png",
+            "src": "/Modugno/screenshot/1-mobile.png",
             "sizes": "874x402",
             "type": "image/png",
             "label": "Inizio del gioco",
@@ -123,7 +123,6 @@ export default defineConfig({
     alias: {
       "@components": path.resolve(__dirname, "./src/components"),
       "@assets": path.resolve(__dirname, "./src/assets"),
-      "@data": path.resolve(__dirname, "./src/data"),
     },
   },
   build: {

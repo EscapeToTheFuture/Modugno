@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://escapetothefuture.github.io/Bitritto",
+  "homepage": "https://escapetothefuture.github.io/Modugno",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
