@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import Speaker from "./Speaker";
 
-const Dialogue = ({ dialogue, absolute=false, classes, onClose }) => {
+const Dialogue = ({ dialogue, onClose, centered=false }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -26,9 +26,9 @@ const Dialogue = ({ dialogue, absolute=false, classes, onClose }) => {
   };
 
   return (
-    <div className={"absolute w-full h-full pb-[10svh] flex justify-center items-end " + (isVisible && "z-20")} onClick={handleClick}>
+    <div className={"absolute w-full h-full pb-[10svh] flex justify-center " + (centered? "items-center " : "items-end ") + (isVisible && "z-20")} onClick={handleClick}>
       <div
-        className={`${absolute ? "absolute" : "relative"} ${classes} flex justify-center items-center mx-auto sm:mb-8 min-h-[23%] md:mb-0 lg:w-100 w-3/8 transition-transform transform ${
+        className={`relative flex justify-center items-center mx-auto sm:mb-8 min-h-[23%] md:mb-0 lg:w-100 w-3/8 transition-transform transform ${
           isVisible ? "scale-100" : "scale-0"
         } animate-bounce-in font-inknut z-20`}
       >
@@ -102,6 +102,7 @@ Dialogue.propTypes = {
     delay: PropTypes.number,
   }).isRequired,
   onClose: PropTypes.func,
+  centered: PropTypes.bool,
 };
 
 export default Dialogue;
