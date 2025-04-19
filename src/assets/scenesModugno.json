@@ -161,10 +161,6 @@
             {
                 "type": "narrator",
                 "text": "Tommaso esamina il pannello e vede una grande valvola che può essere ruotata."
-            },
-            {
-                "type": "narrator",
-                "text": "Tommaso gira la valvola e la fontana si svuota."
             }
         ]
     },
@@ -172,13 +168,17 @@
         "title": "Secongo enigma – Statua e fontana vuota",
         "dialogue": [
             {
+                "type": "narrator",
+                "text": "Tommaso gira la valvola e la fontana si svuota."
+            },
+            {
                 "type": "speaking",
                 "speaker": "Tommaso",
                 "text": "Una moneta! Forse va messa qui..."
             },
             {
                 "type": "narrator",
-                "text": "tommaso recupera la moneta dalla vasca e va a posizionarla sulle mani della statua."
+                "text": "Tommaso recupera la moneta dalla vasca e va a posizionarla sulle mani della statua."
             },
             {
                 "type": "narrator",
@@ -187,10 +187,6 @@
             {
                 "type": "narrator",
                 "text": "Rinviene un logoro diario, scritto da un vecchio custode del parco."
-            },
-            {
-                "type": "speaking",
-                "text": "Questo dev'essere il dono"
             }
         ]
     },
