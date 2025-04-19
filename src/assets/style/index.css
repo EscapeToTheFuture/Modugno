@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "./animations.css";
+
+body {
+    background-color: #181717;
+    overflow: hidden;
+}
+
+@theme {
+  --font-elite: "Special Elite", system-ui;
+  --font-julee: "Julee", cursive;
+  --font-inknut: "Inknut Antiqua", serif;
+  --font-quantico: "Quantico", sans-serif;
+}

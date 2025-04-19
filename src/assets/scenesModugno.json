@@ -1,0 +1,450 @@
+[
+    {
+        "title": "Il risveglio",
+        "scene_image": "./assets/images/parco_chiuso.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Una sirena suona. Tommaso, si sveglia di colpo su una panchina, confuso e disorientato."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Dove sono...? Oh no, il parco è chiuso!"
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso si alza e inizia a guardarsi attorno. Il parco è avvolto nell’oscurità, con alcune luci intermittenti in lontananza."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Devo trovare un modo per uscire... ma da dove inizio?"
+            }
+        ]
+    },
+    {
+        "title": "Primo enigma - La Ruota Panoramica",
+        "scene_image": "./assets/images/ruota_panoramica_spenta.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso si avvicina alla ruota panoramica, che appare spenta e immobile. Sul pannello di controllo ci sono tre pulsanti colorati: giallo, rosso e blu. Tommaso si avvicina, esaminando meglio i comandi."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Cos'è questa etichetta?"
+            },
+            {
+                "type": "hint",
+                "speaker": "Etichetta ruota panoramica",
+                "text": "Per far sì che la ruota giri, pensa al giro del giorno..."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Mattina, tramonto, notte… forse è un ciclo, come il giro del sole."
+            }
+        ],
+        "puzzle": {
+            "type": "sequence",
+            "hint": {
+                "type": "hint",
+                "speaker": "Etichetta ruota panoramica",
+                "text": "Per far sì che la ruota giri, pensa al giro del giorno..."
+            },
+            "show_after_dialogue": 2,
+            "activate_after_dialogue": 3,
+            "options": ["giallo", "rosso", "blu"],
+            "solution": ["giallo", "rosso", "blu"]
+        }
+    },
+    {
+        "title": "Primo enigma - La Ruota Panoramica",
+        "scene_image": "./assets/images/ruota_panoramica_accesa.jpg",
+        "dialogue": [
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Sì! Funziona!"
+            },
+            {
+                "type": "narrator",
+                "text": "La ruota panoramica sale in alto e, da lassù, Tommaso osserva il parco immerso nell'oscurità. Solo un edificio è illuminato: un piccolo ufficio al margine del parco."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Un ufficio illuminato... forse c’è qualcuno lì che mi può aiutare. Devo raggiungerlo."
+            },
+            {
+                "type": "narrator",
+                "text": "La ruota si ferma, Tommaso scende e si dirige verso l'ufficio."
+            }
+        ]
+    },
+    {
+        "title": "Secondo enigma - porta bloccata.",
+        "scene_image": "./assets/images/ufficio.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso si avvicina all'ufficio illuminato, spingendo la porta che, sorprendentemente, si apre facilmente. All'interno, l’ufficio è piccolo e ordinato, con un tavolo, un computer e vari attrezzi. Leo, il guardiano notturno, si volta sorpreso."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Leo",
+                "text": "Ehi, che ci fai qui, ragazzo? Il parco è chiuso! Non dovresti essere qui a quest'ora."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Non lo so nemmeno io... mi sono addormentato e ora sono bloccato qui. Come faccio a uscire?"
+            },
+            {
+                "type": "speaking",
+                "speaker": "Leo",
+                "text": "Ah, i cancelli si chiudono automaticamente dopo una certa ora. Non si riaprono fino all’alba, quindi temo che dovrai aspettare un po’."
+            },
+            {
+                "type": "narrator",
+                "text": "Mentre parlano, un verso agghiacciante si sente provenire da fuori. Leo si irrigidisce e si affretta verso la porta."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Leo",
+                "text": "Rimani qui. Vado a vedere cos’è successo. Torno subito."
+            },
+            {
+                "type": "narrator",
+                "text": "Leo esce di fretta, lasciando la porta dell’ufficio aperta per un istante, ma improvvisamente questa si chiude con un \"click\" meccanico. Tommaso si avvicina alla porta e prova ad aprirla, ma è bloccata."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Non ci credo... mi ha chiuso qui dentro! Devo trovare un modo per uscire."
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso si guarda attorno alla ricerca di una via di fuga. Nota un piccolo pannello di sicurezza vicino alla porta con una tastiera numerica, e sopra di essa, una nota scritta a mano."
+            },
+            {
+                "type": "hint",
+                "speaker": "Nota sul tastierino",
+                "text": "Promemoria per la porta: ricorda l'ora in cui il parco si sveglia e va a dormire."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Mmm, devo trovare questi orari da qualche parte."
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso si mette a frugare nell'ufficio. Sul tavolo, trova un calendario aperto con gli orari di apertura e chiusura del parco scritti sopra."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Ecco qui!"
+            },
+            {
+                "type": "hint",
+                "speaker": "Orari del parco",
+                "text": "Il parco apre alle 08:00 e chiude alle 20:00."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Funziona! Ora posso uscire."
+            }
+        ],
+        "puzzle": {
+            "type": "code",
+            "hint": {
+                "type": "hint",
+                "speaker": "Orari del parco",
+                "text": "Il parco apre alle 08:00 e chiude alle 20:00."
+            },
+            "show_after_dialogue": 13,
+            "activate_after_dialogue": 13,
+            "solution": "0820",
+            "code_length": 4
+        }
+    },
+    {
+        "title": "Terzo e quarto enigma – Statua e fontana",
+        "scene_image": "./assets/images/FONTANA chiusa.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso si ritrova davanti ad una fontana e nota una statua al centro, rappresentante un uomo anziano con le mani tese, pronte a ricevere qualcosa. Legge la scritta alla base:"
+            },
+            {
+                "type": "hint",
+                "speaker": "Scritta sulla statua",
+                "text": "Fammi un dono e mi inchinerò mostrandoti la via."
+            },
+            {
+                "type": "narrator",
+                "text": "Accanto alla fontana, Tommaso vede un pannello con delle valvole e un cartello che avverte:"
+            },
+            {
+                "type": "hint",
+                "speaker": "Cartello",
+                "text": "Non toccare, solo personale autorizzato."
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso esamina il pannello e vede una grande valvola che può essere ruotata a destra o a sinistra. Sopra la valvola, una targa riporta un indovinello:"
+            },
+            {
+                "type": "hint",
+                "speaker": "Indovinello sulla targa",
+                "text": "Gira a sinistra per ciò che è mancino, a destra per ciò che è giusto. Poi segui il sentiero di chi non erra, e vedrai l'acqua fermarsi."
+            }
+        ],
+        "puzzle": {
+            "type": "sequence",
+            "hint": {
+                "type": "hint",
+                "speaker": "Indovinello sulla targa",
+                "text": "Gira a sinistra per ciò che è mancino, a destra per ciò che è giusto. Poi segui il sentiero di chi non erra, e vedrai l'acqua fermarsi."
+            },
+            "show_after_dialogue": 5,
+            "activate_after_dialogue": 5,
+            "options": ["sinistra", "destra"],
+            "solution": ["sinistra", "destra", "destra"]
+        }
+    },
+    {
+        "title": "Terzo e quarto enigma – Statua e fontana",
+        "scene_image": "./assets/images/FONTANA con moneta.jpg",
+        "dialogue": [
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Questo dev’essere il dono."
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso la raccoglie e la offre alla statua.  Non appena la moneta viene posizionata, la statua si muove, piegandosi lentamente in avanti. Sotto la base della statua, si apre un vano segreto. Rinviene un logoro diario, scritto da un vecchio custode del parco."
+            },
+            {
+                "type": "hint",
+                "speaker": "Diario del custode",
+                "text": "Un vecchio tunnel di servizio, vicino alla torretta di osservazione… dovrebbe essere ancora accessibile. Da lì si può uscire senza passare per i cancelli."
+            }
+        ]
+    },
+    {
+        "title": "Scelta con Leo",
+        "scene_image": "./assets/images/TUNNEL.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso, dopo aver letto il diario e scoperto l’esistenza di un vecchio tunnel di servizio, si dirige verso la torretta di osservazione. Mentre avanza, un’ombra si staglia di fronte a lui: è Leo, il custode notturno. La luce della torcia gli illumina il volto, che appare serio e preoccupato."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Leo",
+                "text": "Tommaso! Ti avevo detto di aspettarmi nell’ufficio. Non dovresti essere qui da solo."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Non posso restare chiuso. Ho trovato un modo per uscire! C’è un tunnel di servizio..."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Leo",
+                "text": "Non me ne frega nulla del tunnel! Torna con me ora. È pericoloso rimanere qui di notte. Non puoi sapere cosa si aggira nel parco… e non parlo solo di me."
+            },
+            {
+                "type": "narrator",
+                "text": "Leo avanza, cercando di afferrare Tommaso per riportarlo indietro. Il ragazzo sente una crescente ansia e capisce che la situazione è critica."
+            }
+        ],
+        "puzzle": {
+            "type": "choice",
+            "show_after_dialogue": 4,
+            "activate_after_dialogue": 4,
+            "options": ["Seguire Leo", "Scappare nel tunnel"]
+        }
+    },
+    {
+        "title": "Leo ti riporta all'ufficio",
+        "scene_image": "./assets/images/ufficio.jpg",
+        "dialogue": [
+            {
+                "type": "speaking",
+                "speaker": "Leo",
+                "text": "Non voglio che ti succeda nulla. Torniamo subito, è per il tuo bene."
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso viene riaccompagnato all'ufficio e rinchiuso, rimanendo intrappolato nel parco fino all’apertura del mattino. Un cartello segna la fine della sua avventura."
+            },
+            {
+                "type": "hint",
+                "speaker": "Cartello",
+                "text": "Talvolta, la curiosità può portare a conseguenze inaspettate. Torna a provare un'altra volta!"
+            }
+        ]
+    },
+    {
+        "title": "La fuga nel tunnel",
+        "scene_image": "./assets/images/TUNNEL.jpg",
+        "dialogue": [
+            {
+                "type": "speaking",
+                "speaker": "Leo",
+                "text": "Non farlo! Argo non è amichevole, e non si fermerà finché non ti becca!"
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso corre veloce, il battito del cuore che accelera. Ora deve trovare un modo per evitare il cane e raggiungere il tunnel prima che Argo lo raggiunga."
+            }
+        ]
+    },
+    {
+        "title": "Scelta con Argo",
+        "scene_image": "./assets/images/BIVIO.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso corre a perdifiato, il battito del cuore che aumenta mentre il suono delle zampe di Argo si avvicina sempre di più. Improvvisamente, si trova davanti a un bivio nel parco. Due sentieri si diramano davanti a lui, ciascuno contrassegnato da un'insegna logora e danneggiata dal tempo."
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso si ferma un attimo per riprendere fiato, sudato e ansioso. Il ringhiare di Argo si fa sempre più vicino, e Tommaso sa di dover decidere in fretta."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Quale strada prendo?"
+            }
+        ],
+        "puzzle": {
+            "type": "choice",
+            "show_after_dialogue": 3,
+            "activate_after_dialogue": 3,
+            "options": ["Sinistra", "Destra"]
+        }
+    },
+    {
+        "title": "Svolta a sinistra",
+        "scene_image": "./assets/images/SINISTRA.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso si ritrova in un’area isolata, circondata da cespugli fitti e un’oscurità opprimente. Dopo qualche passo, capisce di essere finito in un vicolo cieco senza uscita, e Argo lo raggiunge."
+            },
+            {
+                "type": "hint",
+                "speaking": "Fine del gioco",
+                "text": "A volte, l'incertezza nelle scelte può portare a conseguenze drammatiche. Non tutte le strade sono destinate a portare alla libertà."
+            }
+        ]
+    },
+    {
+        "title": "Svolta a destra",
+        "scene_image": "./assets/images/TUNNEL.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso, anche se indeciso, corre lungo il percorso. La vegetazione si dirada e, dopo pochi minuti, si imbatte in un ingresso semi-nascosto di un tunnel. L’ingresso, invita ad esplorare l'ignoto."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Questo deve essere il tunnel di servizio di cui parlava il custode. Spero che mi porti fuori."
+            },
+            {
+                "type": "narrator",
+                "text": "Mentre si avvicina, sente un rumore alle sue spalle: Argo sta arrivando. Tommaso si fa strada all'interno, cercando di non pensare a cosa potrebbe nascondere."
+            }
+        ]
+    },
+    {
+        "title": "Il tunnel",
+        "scene_image": "./assets/images/TUNNEL.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso avanza lungo il tunnel, le pareti umide e scure lo circondano, e la luce che filtra è sempre più fioca. Dopo qualche passo, si trova di fronte a un vicolo cieco bloccato da enormi massi. Non può passare e deve trovare un modo per proseguire. La sua attenzione viene attirata da un baule arrugginito, posto in un angolo del tunnel, con un lucchetto a combinazione che lo chiude ermeticamente."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Chissà cosa c’è dentro… Ma come faccio ad aprirlo?"
+            },
+            {
+                "type": "narrator",
+                "text": "Vicino al baule, Tommaso nota una vecchia foto incorniciata. La foto ritrae otto minatori, tre canarini in gabbia e dietro di loro si intravede un tunnel appena aperto."
+            },
+            {
+                "type": "hint",
+                "speaker": "Scritta sotto la foto",
+                "text": "Per aprire la via al fuoco: Conta i valorosi, anche i coraggiosi e aggiungi la via di fuga."
+            },
+            {
+                "type": "narrator",
+                "text": "Tommaso scruta la foto, cercando di capire il messaggio. Il suo sguardo si ferma sui minatori e sui canarini, mentre riflette su cosa significhi \"via di fuga\"."
+            },
+            {
+                "type": "narrator",
+                "text": "Il lucchetto si sblocca con un clic metallico. Tommaso solleva il coperchio del baule e trova un accendino e la dinamite, che può usare per rimuovere i massi che bloccano la via."
+            }
+        ],
+        "puzzle": {
+            "type": "code",
+            "hint": {
+                "type": "hint",
+                "speaker": "Scritta sotto la foto",
+                "text": "Per aprire la via al fuoco: Conta i valorosi, anche i coraggiosi e aggiungi la via di fuga."
+            },
+            "wrong_code": {
+                "type": "narrator",
+                "text": "La combinazione è errata. Dovrai riflettere di nuovo per aprire la via."
+            },
+            "show_after_dialogue": 3,
+            "activate_after_dialogue": 4,
+            "solution": "12",
+            "code_length": 2
+        }
+    },
+    {
+        "title": "Tunnel aperto",
+        "scene_image": "./assets/images/TUNNEL aperto.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Tommaso finalmente riesce a liberarsi dai massi e ad avanzare verso l'uscita del tunnel, sentendo la freschezza dell'aria aperta che lo attende."
+            },
+            {
+                "type": "speaking",
+                "speaker": "Tommaso",
+                "text": "Finalmente! Posso proseguire!"
+            }
+        ]
+    },
+    {
+        "title": "Epilogo",
+        "scene_image": "./assets/images/Parco_comunale_esterno.jpg",
+        "dialogue": [
+            {
+                "type": "narrator",
+                "text": "Il sole sorgeva lentamente all'orizzonte, tinto di calde sfumature dorate e arancioni. Tommaso si svegliò, il cuore ancora pulsante dall'adrenalina della notte trascorsa. Non riusciva a smettere di pensare all'avventura vissuta e a quanto fosse stato straordinario esplorare il parco. Una curiosità irrefrenabile lo portò a tornare."
+            },
+            {
+                "type": "narrator",
+                "text": "Mentre camminava lungo i sentieri familiari, ogni angolo evocava ricordi: l'urlo spaventoso, l'incontro con Leo, il mistero del tunnel. Con ogni passo, il parco sembrava rivelargli un nuovo segreto, facendolo sentire grato per l'esperienza."
+            },
+            {
+                "type": "narrator",
+                "text": "Finalmente, Tommaso raggiunse una piccola radura dove, al centro, sorgeva una statua. Avvicinandosi, scoprì che la statua rappresentava Leo e il suo fedele cane Argo. Leo era raffigurato con un sorriso gentile, mentre Argo si ergeva al suo fianco, fiero e protettivo."
+            }
+        ]
+    }
+]
