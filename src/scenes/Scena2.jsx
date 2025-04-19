@@ -180,7 +180,7 @@ const Scena2 = () => {
         <button
           onClick={() => navigate("/scena3")}
           className="z-10 absolute bottom-4 right-4 w-16 h-16 sm:bottom-6 sm:right-6 sm:w-20 sm:h-20 md:bottom-8 md:right-8 md:w-24 md:h-24 lg:bottom-10 lg:right-10 lg:w-32 lg:h-32 cursor-pointer transform rotate-90 transition-transform duration-300 hover:scale-110 bg-transparent border-none p-0"
-          aria-label="Go to next scene"
+          aria-label="Prossima scena"
         >
           <img
             src={buttonArrow}

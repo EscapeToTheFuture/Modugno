@@ -217,6 +217,11 @@
             },
             {
                 "type": "narrator",
+                "text": "Vicino al baule, Tommaso nota una vecchia foto incorniciata."
+            },
+
+            {
+                "type": "narrator",
                 "text": "Il baule si apre. Tommaso solleva il coperchio del baule e trova un accendino e la dinamite, che può usare per rimuovere i massi che bloccano la via."
             },
             {
@@ -239,11 +244,23 @@
             },
             {
                 "type": "narrator",
-                "text": "Mentre camminava lungo i sentieri familiari, ogni angolo evocava ricordi: l'urlo spaventoso, l'incontro con Leo, il mistero del tunnel. Con ogni passo, il parco sembrava rivelargli un nuovo segreto, facendolo sentire grato per l'esperienza."
+                "text": "Mentre camminava lungo i sentieri familiari, ogni angolo evocava ricordi: l'urlo spaventoso, l'incontro con Leo, il mistero del tunnel. "
             },
             {
                 "type": "narrator",
-                "text": "Finalmente, Tommaso raggiunse una piccola radura dove, al centro, sorgeva una statua. Avvicinandosi, scoprì che la statua rappresentava Leo e il suo fedele cane Argo. Leo era raffigurato con un sorriso gentile, mentre Argo si ergeva al suo fianco, fiero e protettivo."
+                "text": "Con ogni passo, il parco sembrava rivelargli un nuovo segreto, facendolo sentire grato per l'esperienza."
+            },
+            {
+                "type": "narrator",
+                "text": "Finalmente, Tommaso raggiunse una piccola radura dove, al centro, sorgeva una statua."
+            },
+            {
+                "type": "narrator",
+                "text": "Avvicinandosi, scoprì che la statua rappresentava Leo e il suo fedele cane Argo. "
+            },
+            {
+                "type": "narrator",
+                "text": "Leo era raffigurato con un sorriso gentile, mentre Argo si ergeva al suo fianco, fiero e protettivo."
             }
         ]
     }

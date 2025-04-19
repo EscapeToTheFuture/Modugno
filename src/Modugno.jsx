@@ -11,7 +11,6 @@ import Scena3 from "./scenes/Scena3";
 import Scena4 from "./scenes/Scena4";
 import Scena5 from "./scenes/Scena5";
 import Scena6 from "./scenes/Scena6";
-import Scena7 from "./scenes/Scena7";
 import Win from "./scenes/Win";
 
 const Modugno = () => {
@@ -74,7 +73,6 @@ const Modugno = () => {
             <Route path="/scena4" element={<Scena4/>} />
             <Route path="/scena5" element={<Scena5/>} />
             <Route path="/scena6" element={<Scena6/>} />
-            <Route path="/scena7" element={<Scena7/>} />
             {/* Game over */}
             <Route path="*" element={<GameOver/>} />
             {/* Win */}

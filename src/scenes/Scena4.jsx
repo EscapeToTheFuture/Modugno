@@ -11,7 +11,7 @@ import scenesModugno from "@assets/scenesModugno.json";
 import statuaPiena from "@assets/images/Scena4/FONTANA chiusa.jpg";
 import statuaVuota from "@assets/images/Scena4/FONTANA con moneta.jpg";
 import statuaAperta from "@assets/images/Scena4/FONTANA aperta.jpg";
-import diario from "@assets/images/Scena4/Diario.png";
+import diario from "@assets/images/Scena4/Diario.jpg";
 
 const Scena4 = () => {
   const [currentDialogueIndex, setCurrentDialogueIndex] = useState(0);
@@ -50,22 +50,23 @@ const Scena4 = () => {
       )}
 
       {/* Diario antico */}
-      {showDiary && (
+      {showDiary ? (
         <div className="fixed inset-0 backdrop-brightness-70 flex items-center justify-center z-2">
           <img
             src={diario}
             alt="Diario antico"
-            className="w-3/4 h-auto"
+            className="w-full h-auto"
           />
         </div>
-      )}
+        ) : <img src={diario} alt="Diario antico" className="hidden" />
+      }
 
       {/* Bottone vai al tunnel */}
       {showTunnelButton && (
         <div className="fixed bottom-10 right-10 z-10 animate-fade-in">
           <Button
             onClick={() => {
-              navigate("/scene5");
+              navigate("/scena5");
             }}
           >
             Vai al tunnel
