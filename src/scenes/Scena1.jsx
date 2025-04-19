@@ -3,8 +3,8 @@ import { useNavigate } from "react-router";
 import Dialogue from "@components/Dialogue";
 
 import scenesModugno from "@assets/scenesModugno.json";
-import parcoSpento from "@assets/images/Scena1/Risvegliotommaso.webp";
-import buttonArrow from "@assets/images/generic/buttonArrow.webp";
+import parcoSpento from "@assets/images/Scena1/Risvegliotommaso.png";
+import buttonArrow from "@assets/images/generic/buttonArrow.png";
 
 const Scena1 = () => {
   const [currentDialogueIndex, setCurrentDialogueIndex] = useState(0);

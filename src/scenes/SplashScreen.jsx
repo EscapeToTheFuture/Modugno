@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import Button from "@components/Button";
 
-import backgroundImage from "@assets/images/Scena5/Il parco comunale.webp";
+import backgroundImage from "@assets/images/Scena5/Il parco comunale.jpg";
 
 const SplashScreen = ({ title, location }) => {
   const [hasRequestedFullscreen, setHasRequestedFullscreen] = useState(false);
