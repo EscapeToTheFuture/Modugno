@@ -6,14 +6,19 @@ import Button from "@components/Button";
 import scenesModugno from "@assets/scenesModugno.json";
 import vistaAltoRuota from "@assets/images/Scena2/VistaAltoRuota.png";
 
+import ufficio from "@assets/images/Scena3/Ufficio armadiettto aperto.png";
+
 const Scena3 = () => {
   const [currentDialogueIndex, setCurrentDialogueIndex] = useState(0);
   const [scene, setScene] = useState(scenesModugno[2]);
 
+  // Stato per lo sfondo
+  const [backgroundImage, setBackgroundImage] = useState(vistaAltoRuota);
+
   const [showChoices, setShowChoices] = useState(false);
   const navigate = useNavigate();
   return (
-    <div style={{ backgroundImage: `url(${vistaAltoRuota})` }} className="bg-cover bg-center h-screen">
+    <div style={{ backgroundImage: `url(${backgroundImage})` }} className="bg-cover bg-center h-screen">
       <div className="absolute inset-0 bg-black/30 opacity-60"></div>
       {/* Dialogues */}
       {scene.dialogue.map(
@@ -54,6 +59,8 @@ const Scena3 = () => {
                 setScene(scenesModugno[3]);
                 setCurrentDialogueIndex(0);
                 setShowChoices(false);
+                // Cambia lo sfondo
+                setBackgroundImage(ufficio);
               }}
             >
               Parla con Leo
